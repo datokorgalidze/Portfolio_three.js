@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "postinstall": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "start": "vite "
@@ -40,6 +41,7 @@
    
   },
   "engines": {
-    "node": "18.17.1"
+    "node": "18.x",
+    "npm": "9.x"
   }
 }
